@@ -1,0 +1,24 @@
+@keyframes shape-transition {
+      0%, 100% {
+        border-radius: 50%;  /* Circle shape */
+      }
+      50% {
+        border-radius: 10%;   /* Square shape */
+      }
+    }
+    
+    .shape-animate, .shape-animate img {
+      animation: shape-transition 6s ease-in-out infinite;
+      overflow: hidden; /* Ensure the image corners are clipped to the border shape */
+    }
+    
+    /* Adjust the border styling */
+    .shape-animate {
+      border: none; /* Remove the ring/border or set it to be transparent */
+      width: 20rem; /* Adjust width as needed */
+      height: 20rem; /* Adjust height as needed */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
