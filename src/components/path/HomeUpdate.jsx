@@ -21,7 +21,7 @@ const IconBackgroundChanger = () => {
   }, [icons.length]);
 
   return (
-    <div className="flex justify-center justify-around mt-5">
+    <div className="flex justify-center gap-3 mt-5">
       {icons.map((Icon, index) => (
         <div key={index}
              className={`p-3 rounded-full transition-all ease-in-out duration-300 ${

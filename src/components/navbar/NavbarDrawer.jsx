@@ -211,7 +211,7 @@ const NavbarDrawer = () => {
             <li>
               <Link
                 target="blank"
-                to="https://drive.google.com/file/d/1b1JPCQ_axvwbmGxU6DnEYSb7a72vE704/view?usp=sharing"
+                to="https://drive.google.com/file/d/1OQG7rL2mz4GradRQzx47EDTI0OIY4__t/view?usp=sharing"
                 className=" hover:text-emerald-500 hover:scale-105 text-lg"
               >
                 <FaNoteSticky className="text-orange-400 w-5 h-5"></FaNoteSticky>
