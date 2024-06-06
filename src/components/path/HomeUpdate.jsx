@@ -38,7 +38,7 @@ const IconBackgroundChanger = () => {
 
 const HomeUpdate = () => {
   return (
-    <div className='bg-red-100'>
+    <div className='text-center'>
       <div className="flex justify-center items-center ">
         <div className="shape-animate  flex justify-center">
           <img className="object-cover" src={image} alt="Akash Biswas" />
@@ -61,10 +61,12 @@ const HomeUpdate = () => {
             <h1 className="border w-[90px] border-[3px] rounded-xl border-teal-400 text-center "></h1>
           </div>
         </div>
-        <IconBackgroundChanger />
+       <div className='ml-10'>
+       {/* <IconBackgroundChanger /> */}
+       </div>
       </div>
 
-      <div id="about" className="mt-60">
+      <div id="about" className="mt-40">
         <About />
       </div>
     </div>

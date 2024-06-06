@@ -13,7 +13,7 @@ const Contact = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div className="ml-14 mr-10 mt-10">
+    <div className="ml-10 md:mr-10  mt-10 mr-10">
       <div className="text-left">
         <h1 className="text-3xl font-semibold"> <span className="text-red-500 text-5xl font-serif ">C</span>ontact</h1>
         <h1 className="border-2 w-16 border-emerald-600"></h1>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Nav.css"
+import "./Nav.css";
 import {
   FaHome,
   FaRegUser,
@@ -41,18 +41,24 @@ const NavbarDrawer = () => {
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content relative">
         {/* Page content here */}
-       
-        <Outlet></Outlet>
 
+        <Outlet></Outlet>  
+        {/* this is the button of the menu  */}
         <label
           htmlFor="my-drawer"
           className="lg:hidden fixed flex justify-end  top-2 right-4 bg-cyan-300 p-3 rounded-3xl"
         >
           <FaBars></FaBars>
         </label>
-     
-       
       </div>
+
+
+
+
+
+
+     {/* deower side is started from here ........... */}
+
       <div className="drawer-side">
         <label
           htmlFor="my-drawer"
@@ -156,7 +162,10 @@ const NavbarDrawer = () => {
               to="https://leetcode.com/u/akashboswas2/"
               title="LeetCode"
             >
-              <SiLeetcode title="LeetCode" className="text-sky-500 w-6 h-6 hover:scale-150 hover:text-emerald-500" />
+              <SiLeetcode
+                title="LeetCode"
+                className="text-sky-500 w-6 h-6 hover:scale-150 hover:text-emerald-500"
+              />
             </Link>
           </div>
 
